@@ -3,6 +3,9 @@
 
 ## 📌 Overview
 
+<img width="954" height="328" alt="image" src="https://github.com/user-attachments/assets/efbea6a3-9a5b-4d13-9981-7fe28b560ec7" />
+
+
 This repository contains the implementation of a Physics-Informed Neural Network (PINN) designed to simulate and predict the dynamics of a 1D ideal, undamped spring-mass system (Simple Harmonic Oscillator).
 
 Instead of relying purely on data-driven approaches or traditional numerical solvers (like Runge-Kutta), this model embeds physical laws—specifically **Newton's Second Law** and **Hooke's Law**—directly into the neural network's loss function. This forces the network to learn solutions that strictly adhere to the underlying physics, ensuring long-term energy conservation and high-fidelity predictions.
